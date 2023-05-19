@@ -1,3 +1,2 @@
-p,r,t=map(int,input().split())
-si=(p*r*t)//100
-print("{:.0f}".format(si))
+p,t,r=map(int,input().split())
+print(p*t*r//100)
